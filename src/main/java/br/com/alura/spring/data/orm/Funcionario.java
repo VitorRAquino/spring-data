@@ -57,7 +57,7 @@ public class Funcionario {
 		return cpf;
 	}
 
-	public void setcpf(String cpf) {
+	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
 
@@ -95,7 +95,7 @@ public class Funcionario {
 
 	@Override
 	public String toString() {
-		return "Funcionario: " + "id:" + id + "| nome:'" + nome + "| cpf:" + cpf + "| salario:" + salario
+		return "Funcionario: " + "id:" + id + "| nome:" + nome + "| cpf:" + cpf + "| salario:" + salario
 				+ "| dataContratacao:" + dataContratacao + "| cargo:" + cargo.getDescricao();
 	}
 }
